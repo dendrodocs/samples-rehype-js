@@ -1,0 +1,17 @@
+{
+  "name": "dendrodocs-samples-rehype-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "JavaScript sample DendroDocs renderer that turns intermediary JSON into HTML through HAST and Rehype.",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "check": "node src/generate.js --check"
+  },
+  "dependencies": {
+    "hastscript": "^9.0.1",
+    "rehype-format": "^5.0.1",
+    "rehype-stringify": "^10.0.1",
+    "unified": "^11.0.5"
+  }
+}
